@@ -1,0 +1,38 @@
+# Raw GNSS data
+*.ubx
+*.zip
+*.7z
+*.rar
+
+# Large derived datasets
+results/*.csv
+results/*.parquet
+results/*.pkl
+results/*.joblib
+
+# Local-only evidence and exports
+evidence/*.png
+evidence/*.jpg
+evidence/*.jpeg
+*.pptx
+*.docx
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local configuration
+.env
+.env.*
+*.key
+*.pem
