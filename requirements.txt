@@ -1,0 +1,6 @@
+pyubx2
+pandas
+numpy
+matplotlib
+scikit-learn
+remotezip
